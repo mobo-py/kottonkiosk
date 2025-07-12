@@ -9,10 +9,7 @@ with open("static/data/male_aesthetics.json", "r") as male_file:
 with open("static/data/female_aesthetics.json", "r") as female_file:
     female_aesthetics = json.load(female_file)
 
-# Create a Gemini client using an API key (ideally from an environment variable)
 client = genai.Client(api_key="AIzaSyCKfsTR7s2AWAF9QkH16eb8tNUYsRurEWI")
-
-# Shared aesthetics
 shared_aesthetics = list(set(male_aesthetics + female_aesthetics))
 
 def generate_prompt(shopper_gender, user_prompt):
@@ -22,7 +19,6 @@ def generate_prompt(shopper_gender, user_prompt):
         aesthetics_list = female_aesthetics
     else:
         aesthetics_list = shared_aesthetics
-
     conversionprompt = (
         f"You are a fashion expert. Your task is to convert a prompt into a list of aesthetics "
         f"from the following list. Your answer must be in Python syntax, and it should be the list only, "
@@ -73,10 +69,67 @@ def filter_items_by_aesthetics(shopper_gender, aesthetics_keywords):
                     catalog_options[cat_key].append({"id": item_id, "data": item})
     return catalog_options
 
-# Example usage
-if __name__ == "__main__":
-    shopper_gender = "male"
-    user_prompt = "I want a minimalist streetwear look"
+def pick_item_from_category(category_items, category):
+    print(f"\nAvailable {category}s:")
+    for idx, item in enumerate(category_items):
+        name = item['data'].get('name', 'Unnamed Item')
+        colors = item['data'].get('colors', {})
+        if isinstance(colors, dict):
+            color_list = list(colors.keys())
+        else:
+            color_list = colors
+        print(f"{idx+1}. {name} (Colors: {', '.join(color_list)})")
+    while True:
+        try:
+            choice = int(input(f"Pick a {category} by number (or 0 to skip): "))
+            if choice == 0:
+                return None, None
+            if 1 <= choice <= len(category_items):
+                item = category_items[choice-1]
+                colors = item['data'].get('colors', {})
+                if isinstance(colors, dict):
+                    color_list = list(colors.keys())
+                else:
+                    color_list = colors
+                while True:
+                    color = input(f"Choose a color from {color_list}: ").strip()
+                    if color in color_list:
+                        # Check quantity for this color
+                        qty_dict = item['data'].get('quantity', {})
+                        if isinstance(qty_dict, dict):
+                            qty = qty_dict.get(color, 0)
+                        else:
+                            qty = qty_dict
+                        if qty > 0:
+                            return item, color
+                        else:
+                            print("Sorry, that color is out of stock. Pick another color.")
+                    else:
+                        print("Invalid color. Try again.")
+            else:
+                print("Invalid choice. Try again.")
+        except Exception:
+            print("Invalid input. Try again.")
+
+def update_quantity(item, color):
+    qty_dict = item['data'].get('quantity', {})
+    if isinstance(qty_dict, dict):
+        if color in qty_dict and qty_dict[color] > 0:
+            qty_dict[color] -= 1
+            item['data']['quantity'] = qty_dict
+    else:
+        # fallback for old format
+        if item['data']['quantity'] > 0:
+            item['data']['quantity'] -= 1
+
+def save_clothing():
+    with open("static/data/clothing.json", "w") as clothing_file:
+        json.dump(clothing, clothing_file, indent=4)
+
+def main():
+    print("Welcome to KottonKiosk!")
+    shopper_gender = input("Enter gender (male/female): ").strip().lower()
+    user_prompt = input("Describe your desired style: ").strip()
     keywords_response = takepromptreturnkeywords(shopper_gender, user_prompt)
     try:
         aesthetics_keywords = eval(keywords_response)
@@ -85,17 +138,36 @@ if __name__ == "__main__":
         aesthetics_keywords = []
     print("Gemini returned aesthetics:", aesthetics_keywords)
     filtered_items = filter_items_by_aesthetics(shopper_gender, aesthetics_keywords)
-    print("Filtered items by category:")
 
-    # Store each category as a separate list
-    hat_names = [item['data'].get('name', 'Unnamed Item') for item in filtered_items['hat']]
-    top_names = [item['data'].get('name', 'Unnamed Item') for item in filtered_items['top']]
-    bottom_names = [item['data'].get('name', 'Unnamed Item') for item in filtered_items['bottom']]
-    dress_names = [item['data'].get('name', 'Unnamed Item') for item in filtered_items['dress']]
-    shoes_names = [item['data'].get('name', 'Unnamed Item') for item in filtered_items['shoes']]
+    categories = ["hat", "top", "bottom", "dress", "shoes"]
+    while True:
+        print("\nWhich categories do you want to include in your outfit?")
+        selected = {}
+        for cat in categories:
+            ans = input(f"Include {cat}? (y/n): ").strip().lower()
+            selected[cat] = ans == "y"
+        outfit = {}
+        for cat in categories:
+            if selected[cat]:
+                items = filtered_items[cat]
+                if not items:
+                    print(f"No items available for {cat} with the selected aesthetics.")
+                    continue
+                item, color = pick_item_from_category(items, cat)
+                if item and color:
+                    outfit[cat] = {"item": item, "color": color}
+        print("\nYour outfit:")
+        for cat, val in outfit.items():
+            name = val["item"]['data'].get('name', 'Unnamed Item')
+            print(f"{cat}: {name} (Color: {val['color']})")
+        another = input("\nWould you like to make another outfit? (y/n): ").strip().lower()
+        # Reduce quantity for purchased items
+        for cat, val in outfit.items():
+            update_quantity(val["item"], val["color"])
+        save_clothing()
+        if another != "y":
+            print("Proceeding to checkout. Thank you for shopping!")
+            break
 
-    print(f"hat: {hat_names}")
-    print(f"top: {top_names}")
-    print(f"bottom: {bottom_names}")
-    print(f"dress: {dress_names}")
-    print(f"shoes: {shoes_names}")
+if __name__ == "__main__":
+    main()
