@@ -1,0 +1,3504 @@
+{
+    "000000": {
+        "name": "Plain White Tee",
+        "gender": "Unisex",
+        "category": "T-Shirt",
+        "price": 19.99,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 100,
+        "Aesthetic": [
+            "Minimalist",
+            "Streetwear",
+            "Normcore",
+            "Casual"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "white": "white"
+        },
+        "description": "A classic plain white t-shirt made from soft cotton. Perfect for layering or wearing on its own.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000001": {
+        "name": "Plain Black Tee",
+        "gender": "Unisex",
+        "category": "T-Shirt",
+        "price": 19.99,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 100,
+        "Aesthetic": [
+            "Minimalist",
+            "Streetwear",
+            "Normcore",
+            "Casual"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "black": "black"
+        },
+        "description": "A classic plain black t-shirt made from soft cotton. Perfect for layering or wearing on its own.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000002": {
+        "name": "Oversized Graphic Tee",
+        "gender": "Unisex",
+        "category": "T-Shirt",
+        "price": 24.99,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 100,
+        "Aesthetic": [
+            "Minimalist",
+            "Streetwear",
+            "Normcore",
+            "Casual"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "black": "black",
+            "white": "white",
+            "gray": "gray"
+        },
+        "description": "A trendy oversized graphic t-shirt featuring a bold design. Made from soft cotton for comfort.",
+        "material": {
+            "cotton": 60,
+            "polyester": 40
+        },
+        "sale": [
+            "true",
+            0.8
+        ],
+        "image": "static/image.jpg"
+    },
+    "000003": {
+        "name": "Cropped Denim Jacket",
+        "gender": "Female",
+        "category": "Top",
+        "price": 59.99,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 60,
+        "Aesthetic": [
+            "Vintage",
+            "Chic",
+            "SoftGirl"
+        ],
+        "fit": "Cropped",
+        "colors": {
+            "denimblue": "denimblue"
+        },
+        "description": "Stylish cropped denim jacket with a feminine cut. A wardrobe essential for layering.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000004": {
+        "name": "Slim Fit Chinos",
+        "gender": "Male",
+        "category": "bottom",
+        "price": 44.99,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 80,
+        "Aesthetic": [
+            "Preppy",
+            "Classic",
+            "Smart Casual"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "khaki": "khaki",
+            "navy": "navy",
+            "olive": "olive",
+            "black": "black",
+            "stone": "stone"
+        },
+        "description": "Versatile slim-fit chinos available in multiple neutral tones, perfect for casual or semi-formal wear.",
+        "material": {
+            "cotton": 98,
+            "spandex": 2
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000005": {
+        "name": "Oversized Flannel Shirt",
+        "gender": "Unisex",
+        "category": "Shirt",
+        "price": 39.99,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 65,
+        "Aesthetic": [
+            "Grunge",
+            "Layered",
+            "IndieSleaze"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "redplaid": "redplaid",
+            "greenplaid": "greenplaid",
+            "black&whiteplaid": "black&whiteplaid"
+        },
+        "description": "Soft brushed cotton flannel shirt with an oversized fit for relaxed layering and grunge-inspired looks.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.8
+        ],
+        "image": "static/image.jpg"
+    },
+    "000006": {
+        "name": "High-Waisted Wide-Leg Trousers",
+        "gender": "Female",
+        "category": "bottom",
+        "price": 54.99,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 50,
+        "Aesthetic": [
+            "Chic",
+            "Minimalist",
+            "CleanGirl"
+        ],
+        "fit": "Wide-Leg",
+        "colors": {
+            "beige": "beige",
+            "black": "black",
+            "navy": "navy"
+        },
+        "description": "Elegant high-waisted trousers with a flattering wide-leg silhouette, perfect for polished day-to-night outfits.",
+        "material": {
+            "polyester": 65,
+            "viscose": 30,
+            "elastane": 5
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000007": {
+        "name": "Plaid Flannel Shirt",
+        "gender": "Male",
+        "category": "Shirt",
+        "price": 34.99,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 70,
+        "Aesthetic": [
+            "Grunge",
+            "Workwear",
+            "Layered"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "redplaid": "redplaid",
+            "greenplaid": "greenplaid",
+            "blueplaid": "blueplaid"
+        },
+        "description": "Classic plaid flannel shirt crafted from soft brushed cotton, ideal for layering in cooler seasons.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000008": {
+        "name": "High-Waisted Wide-Leg Trousers",
+        "gender": "Female",
+        "category": "bottom",
+        "price": 54.99,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 65,
+        "Aesthetic": [
+            "Chic",
+            "Minimalist",
+            "QuietLuxury"
+        ],
+        "fit": "Wide-Leg",
+        "colors": {
+            "beige": "beige",
+            "black": "black",
+            "navy": "navy"
+        },
+        "description": "Elegant high-waisted trousers with a flattering wide-leg silhouette, perfect for both casual and professional looks.",
+        "material": {
+            "polyester": 65,
+            "rayon": 30,
+            "spandex": 5
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000009": {
+        "name": "Vintage Denim Jacket",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 64.99,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 70,
+        "Aesthetic": [
+            "Retro",
+            "Grunge",
+            "Classic"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "denimblue": "denimblue",
+            "washedblack": "washedblack"
+        },
+        "description": "Classic denim jacket with a vintage wash for timeless style.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000010": {
+        "name": "Linen Button-Up Shirt",
+        "gender": "Male",
+        "category": "Shirt",
+        "price": 39.5,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 60,
+        "Aesthetic": [
+            "Preppy",
+            "Classic",
+            "Vacation"
+        ],
+        "fit": "Relaxed",
+        "colors": {
+            "lightblue": "lightblue",
+            "white": "white",
+            "beige": "beige"
+        },
+        "description": "Breathable linen shirt ideal for warm weather or vacation styling.",
+        "material": {
+            "linen": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000011": {
+        "name": "Floral Maxi Dress",
+        "gender": "Female",
+        "category": "Dress",
+        "price": 59.99,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 40,
+        "Aesthetic": [
+            "Bohemian",
+            "Romantic",
+            "Cottagecore"
+        ],
+        "fit": "Flowy",
+        "colors": {
+            "pastelpink": "pastelpink",
+            "lavender": "lavender",
+            "ivory": "ivory"
+        },
+        "description": "A flowing maxi dress with a soft floral print perfect for summer days.",
+        "material": {
+            "cotton": 60,
+            "rayon": 40
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000012": {
+        "name": "Techwear Cargo Pants",
+        "gender": "Unisex",
+        "category": "bottom",
+        "price": 74.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 55,
+        "Aesthetic": [
+            "Techwear",
+            "Urban",
+            "Functional"
+        ],
+        "fit": "Tapered",
+        "colors": {
+            "charcoal": "charcoal",
+            "black": "black",
+            "olive": "olive"
+        },
+        "description": "High-performance cargo pants with utility pockets and water-resistant fabric.",
+        "material": {
+            "nylon": 80,
+            "spandex": 20
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000013": {
+        "name": "Athleisure Joggers",
+        "gender": "Unisex",
+        "category": "bottom",
+        "price": 34.99,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 80,
+        "Aesthetic": [
+            "Athleisure",
+            "Casual",
+            "Minimalist"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "heathergray": "heathergray",
+            "black": "black",
+            "navy": "navy"
+        },
+        "description": "Comfortable joggers suitable for both workouts and lounging.",
+        "material": {
+            "cotton": 70,
+            "polyester": 30
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000014": {
+        "name": "Silk Camisole",
+        "gender": "Female",
+        "category": "Top",
+        "price": 42.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "SoftLuxury",
+            "Chic",
+            "Romantic"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "champagne": "champagne",
+            "black": "black",
+            "blush": "blush"
+        },
+        "description": "Luxurious silk camisole perfect for layering or elegant evening wear.",
+        "material": {
+            "silk": 100
+        },
+        "sale": [
+            "true",
+            0.95
+        ],
+        "image": "static/image.jpg"
+    },
+    "000015": {
+        "name": "Corduroy Overshirt",
+        "gender": "Male",
+        "category": "Shirt",
+        "price": 45.0,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 40,
+        "Aesthetic": [
+            "Workwear",
+            "Retro",
+            "Layered"
+        ],
+        "fit": "Relaxed",
+        "colors": {
+            "olivegreen": "olivegreen",
+            "tan": "tan",
+            "burgundy": "burgundy"
+        },
+        "description": "A rugged overshirt crafted from soft corduroy for a versatile outer layer.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000016": {
+        "name": "Puffer Vest",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 55.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 35,
+        "Aesthetic": [
+            "Functional",
+            "Urban",
+            "Sporty"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "black": "black",
+            "navy": "navy",
+            "forestgreen": "forestgreen"
+        },
+        "description": "Lightweight insulated vest perfect for transitional weather.",
+        "material": {
+            "polyester": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000017": {
+        "name": "Tiered Midi Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 49.99,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 45,
+        "Aesthetic": [
+            "Bohemian",
+            "Twee",
+            "Whimsigoth"
+        ],
+        "fit": "Flowy",
+        "colors": {
+            "mustard": "mustard",
+            "sagegreen": "sagegreen",
+            "cream": "cream"
+        },
+        "description": "Romantic midi skirt with layered tiers for boho-inspired flair.",
+        "material": {
+            "viscose": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000018": {
+        "name": "Graphic Hoodie",
+        "gender": "Unisex",
+        "category": "Hoodie",
+        "price": 49.99,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 75,
+        "Aesthetic": [
+            "Streetwear",
+            "Skater",
+            "Bold"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "white": "white",
+            "redprint": "redprint",
+            "black": "black"
+        },
+        "description": "Bold graphic hoodie designed for expressive streetwear fits.",
+        "material": {
+            "cotton": 80,
+            "polyester": 20
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000019": {
+        "name": "Wool Blend Overcoat",
+        "gender": "Male",
+        "category": "Top",
+        "price": 129.99,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 25,
+        "Aesthetic": [
+            "Formal",
+            "Classic",
+            "Tailored"
+        ],
+        "fit": "Tailored",
+        "colors": {
+            "charcoalgray": "charcoalgray",
+            "camel": "camel"
+        },
+        "description": "Sophisticated overcoat made from warm wool blend, ideal for formal looks.",
+        "material": {
+            "wool": 70,
+            "polyester": 30
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000020": {
+        "name": "Plaid Flannel Shirt",
+        "gender": "Unisex",
+        "category": "Shirt",
+        "price": 32.5,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 60,
+        "Aesthetic": [
+            "Grunge",
+            "Casual",
+            "Retro"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "redplaid": "redplaid",
+            "greenplaid": "greenplaid",
+            "blueplaid": "blueplaid"
+        },
+        "description": "Classic plaid flannel shirt great for layering or wearing on its own.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.95
+        ],
+        "image": "static/image.jpg"
+    },
+    "000021": {
+        "name": "Mock Neck Sweater",
+        "gender": "Female",
+        "category": "Sweater",
+        "price": 48.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 50,
+        "Aesthetic": [
+            "Minimalist",
+            "SoftLuxury",
+            "Chic"
+        ],
+        "fit": "Relaxed",
+        "colors": {
+            "beige": "beige",
+            "ivory": "ivory",
+            "gray": "gray"
+        },
+        "description": "Soft knit sweater with mock neck for cozy elegance.",
+        "material": {
+            "wool": 40,
+            "acrylic": 60
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000022": {
+        "name": "Biker Leather Jacket",
+        "gender": "Male",
+        "category": "Top",
+        "price": 139.99,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "Edgy",
+            "Classic",
+            "Grunge"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "black": "black"
+        },
+        "description": "Iconic black leather biker jacket for rugged, timeless appeal.",
+        "material": {
+            "leather": 100
+        },
+        "sale": [
+            "true",
+            0.8
+        ],
+        "image": "static/image.jpg"
+    },
+    "000023": {
+        "name": "Wide Leg Trousers",
+        "gender": "Female",
+        "category": "bottom",
+        "price": 55.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 38,
+        "Aesthetic": [
+            "OfficeCore",
+            "Elegant",
+            "Minimalist"
+        ],
+        "fit": "Wide Leg",
+        "colors": {
+            "cream": "cream",
+            "black": "black",
+            "dustyrose": "dustyrose"
+        },
+        "description": "Polished trousers with a wide leg silhouette and high waist.",
+        "material": {
+            "polyester": 60,
+            "viscose": 40
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000024": {
+        "name": "Oversized Turtleneck",
+        "gender": "Unisex",
+        "category": "Sweater",
+        "price": 58.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 42,
+        "Aesthetic": [
+            "Cozy",
+            "Casual",
+            "Winterwear"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "rust": "rust",
+            "oatmeal": "oatmeal",
+            "forestgreen": "forestgreen"
+        },
+        "description": "Chunky knit turtleneck sweater with an oversized fit for cold days.",
+        "material": {
+            "wool": 50,
+            "acrylic": 50
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000025": {
+        "name": "Denim Mini Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 36.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 45,
+        "Aesthetic": [
+            "Y2K",
+            "Casual",
+            "Chic"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "mediumwash": "mediumwash",
+            "black": "black",
+            "white": "white"
+        },
+        "description": "Trendy denim mini skirt with raw hem, perfect for warm weather outfits.",
+        "material": {
+            "cotton": 95,
+            "elastane": 5
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000026": {
+        "name": "Faux Fur Coat",
+        "gender": "Female",
+        "category": "Top",
+        "price": 120.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "Glam",
+            "Vintage",
+            "SoftLuxury"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "ivory": "ivory",
+            "blushpink": "blushpink",
+            "mocha": "mocha"
+        },
+        "description": "Luxurious faux fur coat with oversized lapels for a glamorous winter look.",
+        "material": {
+            "polyester": 100
+        },
+        "sale": [
+            "true",
+            0.8
+        ],
+        "image": "static/image.jpg"
+    },
+    "000027": {
+        "name": "Slim Fit Chinos",
+        "gender": "Male",
+        "category": "bottom",
+        "price": 49.99,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 60,
+        "Aesthetic": [
+            "Smart Casual",
+            "Minimalist",
+            "Preppy"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "khaki": "khaki",
+            "navy": "navy",
+            "charcoal": "charcoal"
+        },
+        "description": "Versatile slim-fit chinos ideal for both work and casual outings.",
+        "material": {
+            "cotton": 98,
+            "elastane": 2
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000028": {
+        "name": "Ribbed Tank Top",
+        "gender": "Female",
+        "category": "Top",
+        "price": 18.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 100,
+        "Aesthetic": [
+            "Basic",
+            "Casual",
+            "SoftGirl"
+        ],
+        "fit": "Fitted",
+        "colors": {
+            "white": "white",
+            "black": "black",
+            "lavender": "lavender",
+            "peach": "peach"
+        },
+        "description": "Soft ribbed cotton tank for layering or wearing on its own.",
+        "material": {
+            "cotton": 95,
+            "spandex": 5
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000029": {
+        "name": "Utility Jumpsuit",
+        "gender": "Unisex",
+        "category": "Jumpsuit",
+        "price": 89.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "Utility",
+            "Workwear",
+            "Techwear"
+        ],
+        "fit": "Relaxed",
+        "colors": {
+            "olive": "olive",
+            "black": "black",
+            "stone": "stone"
+        },
+        "description": "Functional and stylish jumpsuit with utility pockets and zip front.",
+        "material": {
+            "cotton": 60,
+            "nylon": 40
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000030": {
+        "name": "Cropped Hoodie",
+        "gender": "Female",
+        "category": "Hoodie",
+        "price": 39.99,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 65,
+        "Aesthetic": [
+            "Athleisure",
+            "Y2K",
+            "Casual"
+        ],
+        "fit": "Cropped",
+        "colors": {
+            "lilac": "lilac",
+            "gray": "gray",
+            "mint": "mint"
+        },
+        "description": "Trendy cropped hoodie with soft fleece lining and drawstring hood.",
+        "material": {
+            "cotton": 80,
+            "polyester": 20
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000031": {
+        "name": "Cargo Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 46.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 40,
+        "Aesthetic": [
+            "Utility",
+            "Streetwear",
+            "Grunge"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "olive": "olive",
+            "black": "black",
+            "sand": "sand"
+        },
+        "description": "Utility-style skirt with flap pockets and belt loops for a rugged edge.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000032": {
+        "name": "Knitted Polo Shirt",
+        "gender": "Male",
+        "category": "Shirt",
+        "price": 52.0,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 32,
+        "Aesthetic": [
+            "Retro",
+            "Smart Casual",
+            "Minimalist"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "burgundy": "burgundy",
+            "navy": "navy",
+            "cream": "cream"
+        },
+        "description": "Textured knit polo with a soft collar for a refined yet casual look.",
+        "material": {
+            "cotton": 60,
+            "acrylic": 40
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000033": {
+        "name": "Boho Wrap Dress",
+        "gender": "Female",
+        "category": "Dress",
+        "price": 62.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 33,
+        "Aesthetic": [
+            "Bohemian",
+            "Romantic",
+            "Cottagecore"
+        ],
+        "fit": "Wrap",
+        "colors": {
+            "terracotta": "terracotta",
+            "dustyblue": "dustyblue",
+            "offwhite": "offwhite"
+        },
+        "description": "Charming wrap dress with boho prints and ruffle details.",
+        "material": {
+            "rayon": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000034": {
+        "name": "Slouchy Beanie",
+        "gender": "Unisex",
+        "category": "Accessories",
+        "price": 15.0,
+        "sizes": [
+            "One Size"
+        ],
+        "quantity": 90,
+        "Aesthetic": [
+            "Streetwear",
+            "Casual",
+            "Grunge"
+        ],
+        "fit": "Slouchy",
+        "colors": {
+            "black": "black",
+            "charcoal": "charcoal",
+            "mustard": "mustard"
+        },
+        "description": "Soft knit beanie with a relaxed slouch for effortless cool.",
+        "material": {
+            "acrylic": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000035": {
+        "name": "Oversized Graphic Tee",
+        "gender": "Unisex",
+        "category": "T-Shirt",
+        "price": 28.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 75,
+        "Aesthetic": [
+            "Streetwear",
+            "Skater",
+            "Y2K"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "black": "black",
+            "white": "white",
+            "pastelblue": "pastelblue"
+        },
+        "description": "Bold oversized t-shirt with front and back graphic prints.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000036": {
+        "name": "Tweed Mini Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 44.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "Chic",
+            "Classic",
+            "CleanGirl"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "beige": "beige",
+            "black": "black"
+        },
+        "description": "Structured tweed skirt with subtle gold buttons, ideal for polished day looks.",
+        "material": {
+            "polyester": 70,
+            "cotton": 30
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000037": {
+        "name": "Faux Leather Trench Coat",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 110.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "Edgy",
+            "Fashion-forward",
+            "Darkwear"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "black": "black"
+        },
+        "description": "Dramatic faux leather trench coat with a smooth finish and oversized collar.",
+        "material": {
+            "polyurethane": 100
+        },
+        "sale": [
+            "true",
+            0.8
+        ],
+        "image": "static/image.jpg"
+    },
+    "000038": {
+        "name": "Knit Sweater Vest",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 38.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 50,
+        "Aesthetic": [
+            "Retro",
+            "Preppy",
+            "Layered"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "navy": "navy",
+            "cream": "cream"
+        },
+        "description": "Classic knit vest perfect for layering over shirts or dresses.",
+        "material": {
+            "cotton": 80,
+            "acrylic": 20
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000039": {
+        "name": "Oversized Corduroy Jacket",
+        "gender": "Male",
+        "category": "Top",
+        "price": 72.0,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 35,
+        "Aesthetic": [
+            "Workwear",
+            "Grunge",
+            "Layered"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "rust": "rust",
+            "brown": "brown"
+        },
+        "description": "Thick corduroy jacket with a boxy, oversized fit for vintage styling.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000040": {
+        "name": "Boho Peasant Blouse",
+        "gender": "Female",
+        "category": "Blouse",
+        "price": 36.5,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 40,
+        "Aesthetic": [
+            "Bohemian",
+            "Vintage",
+            "Whimsigoth"
+        ],
+        "fit": "Flowy",
+        "colors": {
+            "ivory": "ivory",
+            "rustfloral": "rustfloral"
+        },
+        "description": "Lightweight peasant blouse with ruffle detailing and boho print.",
+        "material": {
+            "cotton": 70,
+            "rayon": 30
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000041": {
+        "name": "Satin Slip Dress",
+        "gender": "Female",
+        "category": "Dress",
+        "price": 62.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 25,
+        "Aesthetic": [
+            "Glamour",
+            "Chic",
+            "SoftLuxury"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "emeraldgreen": "emeraldgreen",
+            "champagne": "champagne"
+        },
+        "description": "Elegant satin slip dress with adjustable straps and a subtle cowl neckline.",
+        "material": {
+            "polyester": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000042": {
+        "name": "Patchwork Flannel Shirt",
+        "gender": "Unisex",
+        "category": "Shirt",
+        "price": 48.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 60,
+        "Aesthetic": [
+            "Grunge",
+            "IndieSleaze",
+            "Streetwear"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "redmix": "redmix",
+            "bluemix": "bluemix"
+        },
+        "description": "Oversized flannel shirt made from recycled patchwork panels for a unique look.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000043": {
+        "name": "Cropped Wool Sweater",
+        "gender": "Female",
+        "category": "Sweater",
+        "price": 58.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M"
+        ],
+        "quantity": 45,
+        "Aesthetic": [
+            "CoastalGrandmother",
+            "QuietLuxury",
+            "Lagenlook"
+        ],
+        "fit": "Cropped",
+        "colors": {
+            "ivory": "ivory",
+            "dustyrose": "dustyrose"
+        },
+        "description": "Soft cropped wool sweater perfect for transitional seasons.",
+        "material": {
+            "wool": 60,
+            "acrylic": 40
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000044": {
+        "name": "Mesh Long Sleeve Top",
+        "gender": "Female",
+        "category": "Top",
+        "price": 29.99,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "EGirl",
+            "Rocker",
+            "Experimental"
+        ],
+        "fit": "Fitted",
+        "colors": {
+            "black": "black",
+            "smokegray": "smokegray"
+        },
+        "description": "Sheer mesh top ideal for layering or bold styling.",
+        "material": {
+            "nylon": 90,
+            "spandex": 10
+        },
+        "sale": [
+            "true",
+            0.8
+        ],
+        "image": "static/image.jpg"
+    },
+    "000045": {
+        "name": "Plaid Wide-Leg Pants",
+        "gender": "Unisex",
+        "category": "bottom",
+        "price": 54.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 55,
+        "Aesthetic": [
+            "Retro",
+            "Skater",
+            "Normcore"
+        ],
+        "fit": "Wide",
+        "colors": {
+            "grayplaid": "grayplaid"
+        },
+        "description": "Classic plaid pants with a wide-leg cut and button closure.",
+        "material": {
+            "polyester": 65,
+            "viscose": 35
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000046": {
+        "name": "Fleece Zip-Up Hoodie",
+        "gender": "Unisex",
+        "category": "Hoodie",
+        "price": 42.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 80,
+        "Aesthetic": [
+            "Casual",
+            "Sporty",
+            "Minimalist"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "navy": "navy",
+            "gray": "gray"
+        },
+        "description": "Comfortable fleece hoodie with full zip and kangaroo pockets.",
+        "material": {
+            "cotton": 70,
+            "polyester": 30
+        },
+        "sale": [
+            "true",
+            0.95
+        ],
+        "image": "static/image.jpg"
+    },
+    "000047": {
+        "name": "Biker Leather Pants",
+        "gender": "Male",
+        "category": "bottom",
+        "price": 98.0,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "Biker",
+            "Rocker",
+            "Edgy"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "black": "black"
+        },
+        "description": "Sleek faux leather pants with ribbed knee detailing and zip accents.",
+        "material": {
+            "polyurethane": 100
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000048": {
+        "name": "Resortwear Kimono",
+        "gender": "Female",
+        "category": "Top",
+        "price": 46.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "Resortwear",
+            "Bohemian",
+            "Romantic"
+        ],
+        "fit": "Flowy",
+        "colors": {
+            "coral": "coral",
+            "tropicalprint": "tropicalprint"
+        },
+        "description": "Lightweight resortwear kimono with flowing sleeves and tie waist.",
+        "material": {
+            "rayon": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000049": {
+        "name": "EcoChic Utility Jacket",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 65.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 40,
+        "Aesthetic": [
+            "EcoChic",
+            "Functional",
+            "Urban"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "olive": "olive",
+            "tan": "tan"
+        },
+        "description": "Utility-style jacket made from sustainable materials with front patch pockets.",
+        "material": {
+            "recycled cotton": 60,
+            "organic hemp": 40
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000050": {
+        "name": "NeoRomantic Ruffle Top",
+        "gender": "Female",
+        "category": "Top",
+        "price": 39.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 35,
+        "Aesthetic": [
+            "NeoRomantic",
+            "Vintage",
+            "Playful"
+        ],
+        "fit": "Fitted",
+        "colors": {
+            "white": "white",
+            "blush": "blush"
+        },
+        "description": "Soft and romantic ruffle blouse with puff sleeves and front buttons.",
+        "material": {
+            "cotton": 60,
+            "linen": 40
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000051": {
+        "name": "Y2K Rhinestone Baby Tee",
+        "gender": "Female",
+        "category": "Top",
+        "price": 26.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M"
+        ],
+        "quantity": 40,
+        "Aesthetic": [
+            "Y2K",
+            "Playful",
+            "EGirl"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "pink": "pink",
+            "lilac": "lilac"
+        },
+        "description": "Cute Y2K-style tee with rhinestone lettering and cropped hem.",
+        "material": {
+            "cotton": 95,
+            "spandex": 5
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000052": {
+        "name": "Grunge Distressed Jeans",
+        "gender": "Unisex",
+        "category": "bottom",
+        "price": 64.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 45,
+        "Aesthetic": [
+            "Grunge",
+            "Alt",
+            "Skater"
+        ],
+        "fit": "Baggy",
+        "colors": {
+            "blackwash": "blackwash",
+            "acidblue": "acidblue"
+        },
+        "description": "Loose-fit jeans with distressing and raw hems for a lived-in look.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000053": {
+        "name": "Coastal Linen Shorts",
+        "gender": "Male",
+        "category": "Shorts",
+        "price": 38.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 50,
+        "Aesthetic": [
+            "CoastalGrandfather",
+            "Minimalist",
+            "Vacation"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "sand": "sand",
+            "white": "white"
+        },
+        "description": "Breathable linen shorts with drawstring waist and a relaxed fit.",
+        "material": {
+            "linen": 70,
+            "cotton": 30
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000054": {
+        "name": "Punk Chain Tank Top",
+        "gender": "Female",
+        "category": "Top",
+        "price": 32.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 25,
+        "Aesthetic": [
+            "Punk",
+            "Experimental",
+            "IndieSleaze"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "black": "black"
+        },
+        "description": "Bold tank top with chain strap detail and stretch fit.",
+        "material": {
+            "cotton": 60,
+            "polyester": 40
+        },
+        "sale": [
+            "true",
+            0.8
+        ],
+        "image": "static/image.jpg"
+    },
+    "000055": {
+        "name": "Gorpcore Technical Pants",
+        "gender": "Unisex",
+        "category": "bottom",
+        "price": 76.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 35,
+        "Aesthetic": [
+            "Gorpcore",
+            "Functional",
+            "Techwear"
+        ],
+        "fit": "Loose",
+        "colors": {
+            "charcoal": "charcoal",
+            "armygreen": "armygreen"
+        },
+        "description": "Water-resistant utility pants with cargo pockets and adjustable cuffs.",
+        "material": {
+            "nylon": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000056": {
+        "name": "Preppy Collared Sweater",
+        "gender": "Male",
+        "category": "Sweater",
+        "price": 52.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 40,
+        "Aesthetic": [
+            "Preppy",
+            "Academic",
+            "Normcore"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "navy": "navy",
+            "gray": "gray"
+        },
+        "description": "Classic knit sweater with contrast collar and ribbed cuffs.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000057": {
+        "name": "Streetwear Utility Vest",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 68.0,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "Streetwear",
+            "Gorpcore",
+            "Techwear"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "black": "black",
+            "gray": "gray"
+        },
+        "description": "Tactical vest with multiple pockets and snap closures.",
+        "material": {
+            "polyester": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000058": {
+        "name": "Cottagecore Eyelet Midi Dress",
+        "gender": "Female",
+        "category": "Dress",
+        "price": 66.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "Cottagecore",
+            "Romantic",
+            "Vintage"
+        ],
+        "fit": "Flowy",
+        "colors": {
+            "white": "white",
+            "sage": "sage"
+        },
+        "description": "Whimsical midi dress with eyelet embroidery and puff sleeves.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000059": {
+        "name": "Cyberpunk Tech Hoodie",
+        "gender": "Unisex",
+        "category": "Hoodie",
+        "price": 84.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 25,
+        "Aesthetic": [
+            "Cyberpunk",
+            "Techwear",
+            "Experimental"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "black": "black",
+            "darkgray": "darkgray"
+        },
+        "description": "High-tech hoodie with zip vents, reflective seams, and built-in face covering.",
+        "material": {
+            "polyester": 90,
+            "spandex": 10
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000060": {
+        "name": "Lagenlook Tunic Dress",
+        "gender": "Female",
+        "category": "Dress",
+        "price": 59.0,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 25,
+        "Aesthetic": [
+            "Lagenlook",
+            "Cozy",
+            "Minimalist"
+        ],
+        "fit": "Loose",
+        "colors": {
+            "charcoal": "charcoal",
+            "mauve": "mauve"
+        },
+        "description": "Relaxed tunic dress with asymmetrical hem and side pockets.",
+        "material": {
+            "viscose": 60,
+            "linen": 40
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000061": {
+        "name": "Quiet Luxury Blazer",
+        "gender": "Unisex",
+        "category": "Blazer",
+        "price": 120.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 15,
+        "Aesthetic": [
+            "QuietLuxury",
+            "CorporateCore",
+            "Minimalist"
+        ],
+        "fit": "Tailored",
+        "colors": {
+            "oatmeal": "oatmeal",
+            "graphite": "graphite"
+        },
+        "description": "Refined wool blazer with clean lines and subtle structure.",
+        "material": {
+            "wool": 70,
+            "polyester": 30
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000062": {
+        "name": "Maximalist Statement Cardigan",
+        "gender": "Female",
+        "category": "Cardigan",
+        "price": 74.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "Maximalist",
+            "Playful",
+            "Experimental"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "multicolor": "multicolor"
+        },
+        "description": "Colorful knit cardigan with eclectic patterns and oversized buttons.",
+        "material": {
+            "acrylic": 80,
+            "wool": 20
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000063": {
+        "name": "Indie Cord Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 42.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "Indie",
+            "Retro",
+            "Grunge"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "olive": "olive",
+            "burgundy": "burgundy"
+        },
+        "description": "Mini corduroy skirt with front button closure and vintage appeal.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000064": {
+        "name": "Avant Garde Asymmetrical Top",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 49.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 15,
+        "Aesthetic": [
+            "AvantGarde",
+            "Experimental",
+            "Artwear"
+        ],
+        "fit": "Relaxed",
+        "colors": {
+            "black": "black"
+        },
+        "description": "Cutting-edge asymmetrical top with sculptural draping and high neckline.",
+        "material": {
+            "modal": 70,
+            "polyester": 30
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000065": {
+        "name": "Cuffed Denim Jumpsuit",
+        "gender": "Female",
+        "category": "Jumpsuit",
+        "price": 78.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "Utility",
+            "Casual",
+            "Vintage"
+        ],
+        "fit": "Relaxed",
+        "colors": {
+            "lightwash": "lightwash"
+        },
+        "description": "Denim utility jumpsuit with cuffed hems and front zip.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000066": {
+        "name": "Techwear Layered Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 62.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 18,
+        "Aesthetic": [
+            "Techwear",
+            "Cyberpunk",
+            "Edgy"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "black": "black"
+        },
+        "description": "Futuristic skirt with layered tech-fabric panels and zipper details.",
+        "material": {
+            "nylon": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000067": {
+        "name": "Normcore Pullover Sweatshirt",
+        "gender": "Unisex",
+        "category": "Sweatshirt",
+        "price": 39.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 65,
+        "Aesthetic": [
+            "Normcore",
+            "Casual",
+            "Minimalist"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "heathergray": "heathergray",
+            "navy": "navy"
+        },
+        "description": "Simple pullover with soft fleece lining and ribbed cuffs.",
+        "material": {
+            "cotton": 60,
+            "polyester": 40
+        },
+        "sale": [
+            "true",
+            0.95
+        ],
+        "image": "static/image.jpg"
+    },
+    "000068": {
+        "name": "SoftLuxury Cashmere Turtleneck",
+        "gender": "Female",
+        "category": "Sweater",
+        "price": 140.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 12,
+        "Aesthetic": [
+            "SoftLuxury",
+            "QuietLuxury",
+            "Minimalist"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "ivory": "ivory",
+            "taupe": "taupe"
+        },
+        "description": "Premium cashmere turtleneck sweater for elevated everyday style.",
+        "material": {
+            "cashmere": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000069": {
+        "name": "Y2K Butterfly Mini Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 36.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M"
+        ],
+        "quantity": 35,
+        "Aesthetic": [
+            "Y2K",
+            "Playful",
+            "EGirl"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "pink": "pink",
+            "bluebutterfly": "bluebutterfly"
+        },
+        "description": "Mini skirt with butterfly motif and lace-up sides for Y2K flair.",
+        "material": {
+            "polyester": 90,
+            "spandex": 10
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000070": {
+        "name": "Experimental Zip-Up Cape",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 95.0,
+        "sizes": [
+            "One Size"
+        ],
+        "quantity": 10,
+        "Aesthetic": [
+            "Experimental",
+            "Artwear",
+            "Darkwear"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "black": "black"
+        },
+        "description": "Sculptural zip-up cape with exaggerated silhouette and urban edge.",
+        "material": {
+            "polyester": 80,
+            "cotton": 20
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000071": {
+        "name": "Rocker Moto Boots",
+        "gender": "Unisex",
+        "category": "Footwear",
+        "price": 120.0,
+        "sizes": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "quantity": 18,
+        "Aesthetic": [
+            "Rocker",
+            "Biker",
+            "Edgy"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "black": "black"
+        },
+        "description": "Leather moto boots with metal buckles and thick soles.",
+        "material": {
+            "leather": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000072": {
+        "name": "Retro Track Jacket",
+        "gender": "Male",
+        "category": "Top",
+        "price": 56.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 28,
+        "Aesthetic": [
+            "Retro",
+            "Sporty",
+            "Streetwear"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "navy/white": "navy/white",
+            "red/black": "red/black"
+        },
+        "description": "Classic track jacket with contrast stripes and zip front.",
+        "material": {
+            "polyester": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000073": {
+        "name": "Bohemian Maxi Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 48.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 35,
+        "Aesthetic": [
+            "Bohemian",
+            "Flowy",
+            "Vacation"
+        ],
+        "fit": "Loose",
+        "colors": {
+            "navyfloral": "navyfloral",
+            "mustardprint": "mustardprint"
+        },
+        "description": "Tiered maxi skirt with elastic waist and boho-inspired print.",
+        "material": {
+            "viscose": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000074": {
+        "name": "CorporateCore Wool Trousers",
+        "gender": "Unisex",
+        "category": "bottom",
+        "price": 88.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "CorporateCore",
+            "QuietLuxury",
+            "Minimalist"
+        ],
+        "fit": "Tailored",
+        "colors": {
+            "charcoal": "charcoal",
+            "navy": "navy"
+        },
+        "description": "Tailored wool trousers with pressed creases and side pockets.",
+        "material": {
+            "wool": 80,
+            "polyester": 20
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000075": {
+        "name": "Glamour Metallic Halter Top",
+        "gender": "Female",
+        "category": "Top",
+        "price": 44.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M"
+        ],
+        "quantity": 25,
+        "Aesthetic": [
+            "Glamour",
+            "Party",
+            "Y2K"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "silver": "silver",
+            "gold": "gold"
+        },
+        "description": "Dazzling metallic halter with an open back, perfect for night outs.",
+        "material": {
+            "polyester": 95,
+            "spandex": 5
+        },
+        "sale": [
+            "true",
+            0.8
+        ],
+        "image": "static/image.jpg"
+    },
+    "000076": {
+        "name": "Light Academia Wool Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 58.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "LightAcademia",
+            "Academic",
+            "Preppy"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "camel": "camel",
+            "beige": "beige"
+        },
+        "description": "Pleated wool skirt with side zip and a classic academic look.",
+        "material": {
+            "wool": 60,
+            "polyester": 40
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000077": {
+        "name": "Cyber Fairy Lace Hoodie",
+        "gender": "Female",
+        "category": "Hoodie",
+        "price": 54.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 25,
+        "Aesthetic": [
+            "Fairycore",
+            "Cyberpunk",
+            "Y2K"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "lavender": "lavender",
+            "black": "black"
+        },
+        "description": "Hoodie with sheer lace sleeves and fairy-inspired graphics.",
+        "material": {
+            "cotton": 80,
+            "lace": 20
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000078": {
+        "name": "Indie Knit Balaclava",
+        "gender": "Unisex",
+        "category": "Accessory",
+        "price": 22.0,
+        "sizes": [
+            "One Size"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "Indie",
+            "Artwear",
+            "Experimental"
+        ],
+        "fit": "Fitted",
+        "colors": {
+            "rust": "rust",
+            "gray": "gray"
+        },
+        "description": "Chunky knit balaclava perfect for layering with indie outfits.",
+        "material": {
+            "acrylic": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000079": {
+        "name": "CorporateCore Silk Blouse",
+        "gender": "Female",
+        "category": "Top",
+        "price": 72.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 18,
+        "Aesthetic": [
+            "CorporateCore",
+            "SoftLuxury",
+            "QuietLuxury"
+        ],
+        "fit": "Relaxed",
+        "colors": {
+            "cream": "cream",
+            "skyblue": "skyblue"
+        },
+        "description": "Elegant silk blouse with button front and soft drape.",
+        "material": {
+            "silk": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000080": {
+        "name": "Retro Knit Vest",
+        "gender": "Male",
+        "category": "Vest",
+        "price": 42.0,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 22,
+        "Aesthetic": [
+            "Retro",
+            "LightAcademia",
+            "Preppy"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "argyle": "argyle",
+            "brown": "brown"
+        },
+        "description": "Sleeveless knit vest with vintage pattern, ideal for layering.",
+        "material": {
+            "cotton": 60,
+            "acrylic": 40
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000081": {
+        "name": "Boho Embroidered Kimono",
+        "gender": "Female",
+        "category": "Top",
+        "price": 48.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "Bohemian",
+            "Festival",
+            "Flowy"
+        ],
+        "fit": "Loose",
+        "colors": {
+            "creamfloral": "creamfloral",
+            "burgundy": "burgundy"
+        },
+        "description": "Lightweight kimono with intricate embroidery and tassels.",
+        "material": {
+            "rayon": 100
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000082": {
+        "name": "Skater Mesh Layer Tee",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 28.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 40,
+        "Aesthetic": [
+            "Skater",
+            "Grunge",
+            "Alt"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "blackmesh": "blackmesh",
+            "plaid": "plaid"
+        },
+        "description": "Layered tee with mesh underlay and grunge graphics.",
+        "material": {
+            "cotton": 70,
+            "polyester": 30
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000083": {
+        "name": "Preppy Tennis Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 36.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 50,
+        "Aesthetic": [
+            "Preppy",
+            "Academic",
+            "Normcore"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "white": "white",
+            "navy": "navy",
+            "pastelpink": "pastelpink"
+        },
+        "description": "Classic pleated tennis skirt with high waist and zipper.",
+        "material": {
+            "polyester": 80,
+            "spandex": 20
+        },
+        "sale": [
+            "true",
+            0.95
+        ],
+        "image": "static/image.jpg"
+    },
+    "000084": {
+        "name": "Minimalist Ribbed Tank",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 20.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 100,
+        "Aesthetic": [
+            "Minimalist",
+            "Normcore",
+            "Y2K"
+        ],
+        "fit": "Fitted",
+        "colors": {
+            "black": "black",
+            "white": "white",
+            "gray": "gray"
+        },
+        "description": "Simple ribbed tank top, ideal for everyday layering.",
+        "material": {
+            "cotton": 95,
+            "spandex": 5
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000085": {
+        "name": "Loungewear Knit Pants",
+        "gender": "Female",
+        "category": "bottom",
+        "price": 38.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 35,
+        "Aesthetic": [
+            "Cozy",
+            "Minimalist",
+            "SoftLuxury"
+        ],
+        "fit": "Loose",
+        "colors": {
+            "oatmeal": "oatmeal",
+            "taupe": "taupe"
+        },
+        "description": "Soft knit pants with elastic waistband and wide-leg fit.",
+        "material": {
+            "viscose": 70,
+            "nylon": 30
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000086": {
+        "name": "Experimental Vinyl Trench",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 140.0,
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "quantity": 10,
+        "Aesthetic": [
+            "AvantGarde",
+            "Experimental",
+            "Techwear"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "glossblack": "glossblack"
+        },
+        "description": "Slick vinyl trench coat with oversized lapels and bold shine.",
+        "material": {
+            "polyurethane": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000087": {
+        "name": "Punk Mesh Arm Warmers",
+        "gender": "Unisex",
+        "category": "Accessory",
+        "price": 14.0,
+        "sizes": [
+            "One Size"
+        ],
+        "quantity": 60,
+        "Aesthetic": [
+            "Punk",
+            "Alt",
+            "Grunge"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "black": "black",
+            "red": "red"
+        },
+        "description": "Stretch mesh arm warmers with thumb holes and attitude.",
+        "material": {
+            "nylon": 100
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000088": {
+        "name": "Artwear Patchwork Jacket",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 92.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 15,
+        "Aesthetic": [
+            "Artwear",
+            "Experimental",
+            "Bohemian"
+        ],
+        "fit": "Relaxed",
+        "colors": {
+            "multicolor": "multicolor"
+        },
+        "description": "One-of-a-kind jacket with patchwork textures and hand-stitch details.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000089": {
+        "name": "CorporateCore Leather Loafers",
+        "gender": "Male",
+        "category": "Footwear",
+        "price": 110.0,
+        "sizes": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "CorporateCore",
+            "QuietLuxury",
+            "Minimalist"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "black": "black",
+            "brown": "brown"
+        },
+        "description": "Classic leather loafers with polished finish and minimal silhouette.",
+        "material": {
+            "leather": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000090": {
+        "name": "Y2K Rhinestone Flare Jeans",
+        "gender": "Female",
+        "category": "bottom",
+        "price": 68.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "Y2K",
+            "Playful",
+            "Glamour"
+        ],
+        "fit": "Flared",
+        "colors": {
+            "lightwash": "lightwash"
+        },
+        "description": "Flared jeans with rhinestone details and low-rise fit.",
+        "material": {
+            "cotton": 98,
+            "spandex": 2
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000091": {
+        "name": "Functional Cargo Mini Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 48.0,
+        "sizes": [
+            "XS",
+            "S",
+            "M"
+        ],
+        "quantity": 28,
+        "Aesthetic": [
+            "Gorpcore",
+            "Utility",
+            "Techwear"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "armygreen": "armygreen",
+            "gray": "gray"
+        },
+        "description": "Mini skirt with cargo pockets and adjustable belt detail.",
+        "material": {
+            "nylon": 80,
+            "cotton": 20
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000092": {
+        "name": "Romantic Organza Sleeve Blouse",
+        "gender": "Female",
+        "category": "Top",
+        "price": 52.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 22,
+        "Aesthetic": [
+            "Romantic",
+            "Cottagecore",
+            "SoftLuxury"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "blush": "blush",
+            "ivory": "ivory"
+        },
+        "description": "Delicate blouse with sheer puff sleeves and sweetheart neckline.",
+        "material": {
+            "polyester": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000093": {
+        "name": "Skater Canvas High Tops",
+        "gender": "Unisex",
+        "category": "Footwear",
+        "price": 44.0,
+        "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "quantity": 50,
+        "Aesthetic": [
+            "Skater",
+            "Casual",
+            "Alt"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "black": "black",
+            "white": "white",
+            "checkerboard": "checkerboard"
+        },
+        "description": "High-top canvas sneakers with durable rubber soles.",
+        "material": {
+            "canvas": 100
+        },
+        "sale": [
+            "true",
+            0.95
+        ],
+        "image": "static/image.jpg"
+    },
+    "000094": {
+        "name": "Cottagecore Apron Dress",
+        "gender": "Female",
+        "category": "Dress",
+        "price": 66.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "Cottagecore",
+            "Vintage",
+            "Romantic"
+        ],
+        "fit": "Flowy",
+        "colors": {
+            "sage": "sage",
+            "ivory": "ivory"
+        },
+        "description": "Apron-style dress with ruffle straps and midi length.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000095": {
+        "name": "Avant-Garde Wide-Leg Trousers",
+        "gender": "Unisex",
+        "category": "bottom",
+        "price": 89.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 14,
+        "Aesthetic": [
+            "AvantGarde",
+            "Artwear",
+            "Minimalist"
+        ],
+        "fit": "Wide",
+        "colors": {
+            "black": "black",
+            "cream": "cream"
+        },
+        "description": "Architectural wide-leg trousers with a high waist and pleats.",
+        "material": {
+            "cotton": 70,
+            "polyester": 30
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000096": {
+        "name": "Punk Plaid Overshirt",
+        "gender": "Unisex",
+        "category": "Shirt",
+        "price": 46.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 35,
+        "Aesthetic": [
+            "Punk",
+            "Grunge",
+            "Alt"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "redplaid": "redplaid",
+            "black/gray": "black/gray"
+        },
+        "description": "Oversized flannel overshirt with classic punk energy.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000097": {
+        "name": "Coastal Grandfather Pullover",
+        "gender": "Male",
+        "category": "Sweater",
+        "price": 62.0,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 28,
+        "Aesthetic": [
+            "CoastalGrandfather",
+            "Vintage",
+            "SoftLuxury"
+        ],
+        "fit": "Relaxed",
+        "colors": {
+            "cream": "cream",
+            "navy": "navy"
+        },
+        "description": "Textured cotton sweater with cable-knit pattern and relaxed fit.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000098": {
+        "name": "Glamour Faux Fur Coat",
+        "gender": "Female",
+        "category": "Top",
+        "price": 112.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 12,
+        "Aesthetic": [
+            "Glamour",
+            "Maximalist",
+            "Y2K"
+        ],
+        "fit": "Oversized",
+        "colors": {
+            "blush": "blush",
+            "leopard": "leopard"
+        },
+        "description": "Lux faux fur coat with bold collar and satin lining.",
+        "material": {
+            "polyester": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000099": {
+        "name": "Fairycore Sheer Overlay Skirt",
+        "gender": "Female",
+        "category": "Skirt",
+        "price": 44.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "Fairycore",
+            "Romantic",
+            "Ethereal"
+        ],
+        "fit": "Flowy",
+        "colors": {
+            "lavender": "lavender",
+            "cream": "cream"
+        },
+        "description": "Layered sheer tulle skirt with a dreamy finish.",
+        "material": {
+            "polyester": 100
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000100": {
+        "name": "Artwear Hand-Dyed Tee",
+        "gender": "Unisex",
+        "category": "Top",
+        "price": 38.0,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "Artwear",
+            "Experimental",
+            "Bohemian"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "hand-dyed": "hand-dyed"
+        },
+        "description": "Individually dyed T-shirt with organic dye patterns.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000101": {
+        "name": "Minimalist Leather Sneakers",
+        "gender": "Unisex",
+        "category": "Footwear",
+        "price": 75.0,
+        "sizes": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "quantity": 50,
+        "Aesthetic": [
+            "Minimalist",
+            "Normcore"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "white": "white",
+            "black": "black"
+        },
+        "description": "Clean leather sneakers with a minimalist design.",
+        "material": {
+            "leather": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000102": {
+        "name": "Bohemian Fringe Bag",
+        "gender": "Female",
+        "category": "Accessory",
+        "price": 48.0,
+        "sizes": [
+            "One Size"
+        ],
+        "quantity": 30,
+        "Aesthetic": [
+            "Bohemian",
+            "Cottagecore"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "brown": "brown",
+            "beige": "beige"
+        },
+        "description": "Fringe shoulder bag perfect for boho-inspired outfits.",
+        "material": {
+            "suede": 100
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000103": {
+        "name": "Vintage Wool Fedora",
+        "gender": "Unisex",
+        "category": "Hat",
+        "price": 42.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 25,
+        "Aesthetic": [
+            "Vintage",
+            "Chic"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "gray": "gray",
+            "brown": "brown"
+        },
+        "description": "Classic wool fedora with a timeless design.",
+        "material": {
+            "wool": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000104": {
+        "name": "Gothic Cross Pendant Necklace",
+        "gender": "Unisex",
+        "category": "Accessory",
+        "price": 22.0,
+        "sizes": [
+            "One Size"
+        ],
+        "quantity": 40,
+        "Aesthetic": [
+            "GothicLolita",
+            "Regencycore"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "silver": "silver",
+            "black": "black"
+        },
+        "description": "Elegant cross pendant necklace with gothic detailing.",
+        "material": {
+            "metal": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    },
+    "000105": {
+        "name": "Sporty Baseball Cap",
+        "gender": "Unisex",
+        "category": "Hat",
+        "price": 18.0,
+        "sizes": [
+            "One Size"
+        ],
+        "quantity": 60,
+        "Aesthetic": [
+            "Sporty",
+            "Athleisure"
+        ],
+        "fit": "Adjustable",
+        "colors": {
+            "navy": "navy",
+            "black": "black",
+            "white": "white"
+        },
+        "description": "Classic baseball cap with adjustable strap.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000106": {
+        "name": "Streetwear Chunky Sneakers",
+        "gender": "Unisex",
+        "category": "Footwear",
+        "price": 95.0,
+        "sizes": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "quantity": 40,
+        "Aesthetic": [
+            "Streetwear",
+            "Skater"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "white": "white",
+            "black": "black",
+            "gray": "gray"
+        },
+        "description": "Bold chunky sneakers for streetwear-inspired looks.",
+        "material": {
+            "synthetic": 100
+        },
+        "sale": [
+            "true",
+            0.85
+        ],
+        "image": "static/image.jpg"
+    },
+    "000107": {
+        "name": "Romantic Floral Headband",
+        "gender": "Female",
+        "category": "Hat",
+        "price": 12.0,
+        "sizes": [
+            "One Size"
+        ],
+        "quantity": 50,
+        "Aesthetic": [
+            "Romantic",
+            "Cottagecore"
+        ],
+        "fit": "Regular",
+        "colors": {
+            "pink": "pink",
+            "ivory": "ivory"
+        },
+        "description": "Delicate floral headband for romantic styling.",
+        "material": {
+            "fabric": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000108": {
+        "name": "Techwear Utility Gloves",
+        "gender": "Unisex",
+        "category": "Accessory",
+        "price": 28.0,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "quantity": 35,
+        "Aesthetic": [
+            "Techwear",
+            "Functional"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "black": "black",
+            "gray": "gray"
+        },
+        "description": "Durable gloves with utility pockets and tech-inspired design.",
+        "material": {
+            "nylon": 100
+        },
+        "sale": [
+            "true",
+            0.8
+        ],
+        "image": "static/image.jpg"
+    },
+    "000109": {
+        "name": "Grunge Plaid Bucket Hat",
+        "gender": "Unisex",
+        "category": "Hat",
+        "price": 20.0,
+        "sizes": [
+            "One Size"
+        ],
+        "quantity": 45,
+        "Aesthetic": [
+            "Grunge",
+            "Alt"
+        ],
+        "fit": "Relaxed",
+        "colors": {
+            "redplaid": "redplaid",
+            "blackplaid": "blackplaid"
+        },
+        "description": "Plaid bucket hat for grunge-inspired outfits.",
+        "material": {
+            "cotton": 100
+        },
+        "sale": [
+            "false"
+        ],
+        "image": "static/image.jpg"
+    },
+    "000110": {
+        "name": "Luxury Velvet Loafers",
+        "gender": "Male",
+        "category": "Footwear",
+        "price": 120.0,
+        "sizes": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "quantity": 20,
+        "Aesthetic": [
+            "QuietLuxury",
+            "Formal"
+        ],
+        "fit": "Slim",
+        "colors": {
+            "black": "black",
+            "navy": "navy"
+        },
+        "description": "Elegant velvet loafers with a polished finish.",
+        "material": {
+            "velvet": 100
+        },
+        "sale": [
+            "true",
+            0.9
+        ],
+        "image": "static/image.jpg"
+    }
+}
